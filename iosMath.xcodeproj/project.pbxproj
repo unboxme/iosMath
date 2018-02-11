@@ -57,6 +57,8 @@
 		D94FE3541B90DE46002D11E2 /* MTMathListDisplay.h in Headers */ = {isa = PBXBuildFile; fileRef = 492EECF317DAED9000939107 /* MTMathListDisplay.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D94FE3551B90DE5B002D11E2 /* MTMathList.h in Headers */ = {isa = PBXBuildFile; fileRef = 492EED0217DAEDB500939107 /* MTMathList.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D94FE3591B90DE91002D11E2 /* MTMathListBuilder.h in Headers */ = {isa = PBXBuildFile; fileRef = 492EED0417DAEDB500939107 /* MTMathListBuilder.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E981BEBB2030B3AA001A6F4D /* ptsansnarrow-custom.otf in Resources */ = {isa = PBXBuildFile; fileRef = E981BEB92030B3A9001A6F4D /* ptsansnarrow-custom.otf */; };
+		E981BEBC2030B3AA001A6F4D /* ptsansnarrow-custom.plist in Resources */ = {isa = PBXBuildFile; fileRef = E981BEBA2030B3AA001A6F4D /* ptsansnarrow-custom.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -137,6 +139,8 @@
 		BB4250423755E0D3CD2BA614 /* Pods-iosMathTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iosMathTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iosMathTests/Pods-iosMathTests.debug.xcconfig"; sourceTree = "<group>"; };
 		D93290960585498BBAEE4535 /* Pods-iosMathExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iosMathExample.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iosMathExample/Pods-iosMathExample.debug.xcconfig"; sourceTree = "<group>"; };
 		D94FE3501B90DCA5002D11E2 /* IosMath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IosMath.h; sourceTree = "<group>"; };
+		E981BEB92030B3A9001A6F4D /* ptsansnarrow-custom.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "ptsansnarrow-custom.otf"; path = "fonts/ptsansnarrow-custom.otf"; sourceTree = SOURCE_ROOT; };
+		E981BEBA2030B3AA001A6F4D /* ptsansnarrow-custom.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "ptsansnarrow-custom.plist"; path = "fonts/ptsansnarrow-custom.plist"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -323,6 +327,8 @@
 				49DEC8121CF3C69E000053CD /* texgyretermes-math.otf */,
 				49DEC8131CF3C69E000053CD /* latinmodern-math.plist */,
 				49DEC8141CF3C69E000053CD /* latinmodern-math.otf */,
+				E981BEBA2030B3AA001A6F4D /* ptsansnarrow-custom.plist */,
+				E981BEB92030B3A9001A6F4D /* ptsansnarrow-custom.otf */,
 				49A27B0518EBF5B30030B7EF /* Supporting Files */,
 			);
 			path = MathFontBundle;
@@ -540,6 +546,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E981BEBC2030B3AA001A6F4D /* ptsansnarrow-custom.plist in Resources */,
+				E981BEBB2030B3AA001A6F4D /* ptsansnarrow-custom.otf in Resources */,
 				49DEC81A1CF3C69E000053CD /* latinmodern-math.otf in Resources */,
 				49DEC8181CF3C69E000053CD /* texgyretermes-math.otf in Resources */,
 				49DEC8161CF3C69E000053CD /* xits-math.otf in Resources */,
